@@ -1,0 +1,368 @@
+/*------------初期設定------------ */
+* {
+   margin: 0;
+   padding: 0;
+ }
+
+/*------------全体の背景------------*/
+ body {
+   background-color: #fff;/*背景の色*/
+ }
+
+/*------------ヘッダー------------*/
+ .header {
+   color: #fff;/*文字の色*/
+   height: 280px;/*高さ*/
+   padding-top: 150px;/*内側の余白*/
+   text-align: center;/*文字を真ん中に*/
+   background-image: url(FH000005%206.JPG);/*背景の画像*/
+   background-size: cover;/*背景画像の大きさ*/
+   background-position: bottom;/*背景画像の位置*/
+ }
+
+ .title {
+   font-size: 110px;/*文字の大きさ*/
+   font-family: 'Rubik', sans-serif;/*フォントの指定*/
+   letter-spacing: 20px;/*文字間*/
+ }
+
+ .sub-title {
+   font-size: 30px;/*文字の大きさ*/
+ }
+
+.container{
+    margin:auto;
+    width: 50%;
+}
+
+.introduction{
+    margin:50px auto;
+}
+
+.my_name h1{
+    font-family: 'Rubik', sans-serif;
+    color: #666;
+    font-size: 50px;
+    text-align: center;
+}
+
+.my_name h2{
+    font-weight: normal;
+    color: #666;
+    font-size: 20px;
+}
+
+.me_group{
+    width: 370px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.icon{
+    border-radius: 50%;
+}
+
+.me{
+    float: right;
+    padding-top: 15px
+}
+
+
+.circle_top{
+    width: 20px;
+    border-radius: 50%;
+    color: #ee827c;
+}
+
+.decoration{
+    width: 20px;
+    height: 20px;
+    background-color: #4c6cb3;
+}
+
+
+
+.second{
+    overflow: hidden;
+    margin: auto;
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.third{
+   overflow: hidden;
+   margin: auto;
+   width: 500px;
+   margin-bottom: 100px;
+}
+
+.galley-box-group{
+   margin-left: 32px;
+}
+
+.galley-box-group2{
+   margin-left: 32px;
+}
+
+.galley-box-group3{
+   margin-left: 32px;
+}
+
+
+ /*------------ギャラリー------------*/
+
+
+ .gallery {
+   width: 650px;/*横幅*/
+   height: 400px;/*高さ*/
+   margin: 0 auto;/*要素を中央に寄せる*/
+ }
+
+ .gallery-title {
+   color: #666;/*文字の色*/
+   font-size: 34px;/*文字の大きさ*/
+   font-family: 'Rubik', sans-serif;/*フォントの指定*/
+   font-weight: 100;
+   padding: 30px;/*内側の余白*/
+   text-align: center;/*文字を真ん中に*/
+ }
+
+
+ .gallery-box{
+   border-radius: 10px;/*角を丸める*/
+   width: 400px;/*横幅*/
+   height: 120px;/*高さ*/
+   margin-right: 20px;/*外側(右)の余白*/
+   margin-top: 20px;
+   float: left;/*要素を左に回り込ませる*/
+   background-color: #fff;/*背景色*/
+   border: solid 0.5px #ccc;
+ }
+
+
+
+/*
+.galley-box-group2{
+   margin-left: 135px;
+}
+*/
+
+ .gallery-photo {
+   border-radius: 10px 0 0 10px;/*角を丸める*/
+   width: 180px;
+ }
+
+.text-top{
+    float: right;
+    width: 220px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    /*
+    width: 220px;
+    text-align: center;
+    vertical-align: middle; */
+}
+
+
+ .photo-name {
+   color: #666;/*文字の色*/
+   font-size: 16px;/*文字の大きさ*/
+   text-align: center;
+   font-weight: 540;
+ }
+
+h4{
+    color: #666;
+    font-size:13px;
+    font-weight: 90;
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+ .photo-caption {
+   color: #999;/*文字の色*/
+   font-size: 14px;/*文字の大きさ*/
+   padding: 0 10px;/*内側(上下/左右)の余白*/
+   text-align: center;
+ }
+
+
+.square{
+    width: 90px;
+    height: 3px;
+    margin:auto;
+}
+
+.square1{
+    background-color: #fcc800;
+}
+
+.square2{
+    background-color: #4c6cb3;
+}
+
+.square3{
+    background-color: #c9171e;
+}
+
+.square4{
+    background-color: #ec6d71;
+}
+
+.square5{
+    background-color: #fbfaf5;
+}
+
+.square6{
+    background-color: #f39800;
+}
+
+.square7{
+    background-color: #fcc800;
+}
+
+.square8{
+    background-color: #00552e;
+}
+
+.square9{
+    background-color: #a0d8ef;
+}
+
+.square10{
+    background-color: #89c3eb;
+}
+
+.square11{
+    background-color: #2ca9e1;
+}
+
+.square12{
+    background-color: #f3bf88;
+}
+
+.square13{
+    background-color: #cc7eb1;
+}
+
+/*
+
+.sunflower{
+    width: 180px;
+    height: 40px
+}
+
+.circle1{
+    width: 10px;
+    height: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: #fcc800;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ulのデフォルトスタイルを消去 */
+
+.tabs-menu {
+  list-style-type: none;
+}
+
+/* タブの基本スタイル */
+.tabs-menu li {
+  float: left;
+  width: 25%;
+/*
+  margin-right: 8px;
+  margin-bottom: -1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px 4px 0 0;
+*/
+
+  /* 各プロパティをふわっと変える演出 */
+  transition: all .15s;
+}
+
+.button{
+  text-align: center;
+}
+
+.tabs-menu a {
+  font-family: 'Rubik', sans-serif;
+  display: block;
+/*  padding: 10px 60px;*/
+  color: #557F95;
+  text-decoration: none;
+}
+
+.tabs-menu img{
+   width:100px;
+}
+
+.tabs-menu img:hover{
+   width:130px;
+   padding:0 60px;
+    transition: all .15s;
+}
+
+/* 非選択のタブにマウスを乗せたら色を変える */
+.tabs-menu li:not(.active):hover {
+/*
+  border-color: #f0f0f0 #f0f0f0 #999;
+  background-color: #f0f0f0;
+*/
+}
+
+/* 選択中のタブ */
+.tabs-menu .active {
+/*
+  border-color: #999 #999 transparent #999;
+  background-color: #fff;
+*/
+}
+.tabs-menu .active a {
+/*  color: #666;*/
+}
+
+/* タブコンテンツ表示エリア */
+.tabs-content {
+  clear: both;
+/*  border: 1px solid #999;*/
+  border-radius: 0 4px 4px 4px;
+  padding: 10px;
+}
+
+/* 各タブのコンテンツはデフォルトで非表示 */
+.tabs-content section {
+  display: none;
+}
+
