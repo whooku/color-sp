@@ -40,13 +40,14 @@ body {
 }
 
 .my_name h1{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     color: #666;
     font-size: 50px;
     text-align: center;
 }
 
 .my_name h2{
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: normal;
     color: #666;
     font-size: 20px;
@@ -120,9 +121,10 @@ body {
  }
 
  .gallery-title {
+     
    color: #666;/*文字の色*/
    font-size: 34px;/*文字の大きさ*/
-   font-family: 'Rubik', sans-serif;/*フォントの指定*/
+   font-family: 'Noto Sans JP', sans-serif;
    font-weight: 100;
    padding: 30px;/*内側の余白*/
    text-align: center;/*文字を真ん中に*/
@@ -162,6 +164,7 @@ body {
 }
 
  .photo-name {
+   font-family: 'Noto Sans JP', sans-serif;
    color: #666;/*文字の色*/
    font-size: 16px;/*文字の大きさ*/
    text-align: center;
@@ -169,6 +172,7 @@ body {
  }
 
 h4{
+    font-family: 'Noto Sans JP', sans-serif;
     color: #666;
     font-size:13px;
     font-weight: 90;
@@ -177,6 +181,7 @@ h4{
 }
 
 .photo-caption {
+   font-family: 'Noto Sans JP', sans-serif;
    color: #999;/*文字の色*/
    font-size: 14px;/*文字の大きさ*/
    padding: 0 10px;/*内側(上下/左右)の余白*/
@@ -312,6 +317,7 @@ h4{
     }
 
     .sub-title {
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 18px;/*文字の大きさ*/
      }
 
@@ -401,6 +407,10 @@ h4{
 
 /*--------flowers-----------*/
     
+     .first{
+        width: 374px;
+     }
+    
      .gallery-title {
        margin: auto;
        width: 200px;
@@ -435,11 +445,11 @@ h4{
 
 /*--------plants-----------*/
     .second{
-        width: 375px;
+        width: 374px;
     }
 
     .third{
-       width: 375px;
+       width: 374px;
     }
 
     
